@@ -209,3 +209,5 @@ col_lists = [variables_list_df, data_list_2008, data_list_2009, data_list_2010, 
 df_report = pd.concat([pd.Series(x) for x in col_lists], axis=1)
 
 df_report.columns = ['categories', '2007', '2008', '2009', '2010', '2011', '2012']
+
+print(2)
